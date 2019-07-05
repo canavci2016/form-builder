@@ -1,5 +1,5 @@
 {
-  "name": "canavci/payment",
+  "name": "canavci/form-builder",
   "description": "my first",
   "license": "MIT",
   "authors": [
@@ -13,8 +13,11 @@
     "php": ">=5.7.0"
   },
   "autoload": {
+    "files" : [
+      "src/Helpers/helper.php"
+    ],
     "psr-4": {
-      "Payment\\":"src/"
+      "FormBuilder\\":"src/"
     }
   }
 }
