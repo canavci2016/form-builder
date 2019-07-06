@@ -1,6 +1,6 @@
 <?php
 
-function array_dot($array, $prepend = '')
+/*function array_dot($array, $prepend = '')
 {
     $results = [];
 
@@ -13,4 +13,4 @@ function array_dot($array, $prepend = '')
     }
 
     return $results;
-}
+}*/
